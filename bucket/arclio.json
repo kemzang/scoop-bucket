@@ -1,0 +1,21 @@
+{
+    "version": "0.5.1",
+    "description": "Download videos, audio, and subtitles from YouTube and 2000+ other sites",
+    "homepage": "https://arclio.net",
+    "license": "MIT",
+    "url": "https://github.com/kemzang/Arclio/releases/download/v0.5.1/Arclio-win-x64-Portable.exe",
+    "hash": "sha256:a7c80c68a4d39d56535017d27865e2609c38f1ca71b76842993c876e11cbe395",
+    "bin": "Arclio-win-x64-Portable.exe",
+    "shortcuts": [
+        [
+            "Arclio-win-x64-Portable.exe",
+            "Arclio"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/kemzang/Arclio"
+    },
+    "autoupdate": {
+        "url": "https://github.com/kemzang/Arclio/releases/download/v$version/Arclio-win-x64-Portable.exe"
+    }
+}
